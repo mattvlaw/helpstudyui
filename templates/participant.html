@@ -1,0 +1,24 @@
+<html>
+
+<img id="loading" src="/static/img/loading.gif" style="visibility:hidden;"/>
+<h1 id="msg" style="visibility:visible;">Push the Button to Ask for Help</h1>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.js" integrity="sha512-q/dWJ3kcmjBLU4Qc47E4A9kTB4m3wuTY7vkFJDTZKjTs8jhyGQnaUrxa0Ytd0ssMZhbNua9hE+E7Qv1j+DyZwA==" crossorigin="anonymous"></script>
+<script type="text/javascript" charset="utf-8">
+    var socket = io({auth: {group:"participant"}});
+    socket.on('connect', function() {
+            console.log("Connected");
+          });
+          socket.on('help_request', function() {
+            console.log("Help!");
+            document.getElementById('msg').style.visibility = 'hidden';
+            document.getElementById('loading').style.visibility = 'visible';
+          });
+          socket.on('help_response', function(data){
+            document.getElementById('msg').innerHTML = data['msg'];
+            document.getElementById('msg').style.visibility = 'visible';
+            document.getElementById('loading').style.visibility = 'hidden';
+          })
+</script>
+</html>

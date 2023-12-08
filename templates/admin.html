@@ -1,0 +1,29 @@
+<html>
+    
+    <form action="/p_info" method="post">
+        <label for="pid">Participant Id: {{participant_id}}</label><br>
+        <input type="number" id="pid" name="pid" value={{participant_id}}><br>
+        <input type="submit" value="Submit">
+      </form>
+
+      <form id="msgform" action="/p_msg" method="post" style="visibility:hidden;">
+        <label for="msg">Help Requested! Enter message:</label><br>
+        <textarea name="msg" form="msgform">Enter text here...</textarea><br>
+        <input type="submit" value="Submit">
+      </form>
+      
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.js" integrity="sha512-q/dWJ3kcmjBLU4Qc47E4A9kTB4m3wuTY7vkFJDTZKjTs8jhyGQnaUrxa0Ytd0ssMZhbNua9hE+E7Qv1j+DyZwA==" crossorigin="anonymous"></script>
+      <script type="text/javascript" charset="utf-8">
+          var socket = io({auth: {group:"admin"}});
+          socket.on('connect', function() {
+            console.log("Connected");
+          });
+          socket.on('help_request', function() {
+            console.log("Help!");
+            document.getElementById('msgform').style.visibility = 'visible';
+          });
+          socket.on('help_response', function(){
+            document.getElementById('msgform').style.visibility = 'hidden';
+          })
+      </script>
+</html>
