@@ -1,0 +1,97 @@
+astroid==3.0.1
+asttokens==2.4.1
+bibtexparser==2.0.0b3
+boltons @ file:///Users/ec2-user/ci_py311/boltons_1678396074811/work
+brotlipy==0.7.0
+certifi @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_b64zphacdv/croot/certifi_1683875375103/work/certifi
+cffi @ file:///Users/ec2-user/ci_py311/cffi_1678315312775/work
+charset-normalizer @ file:///tmp/build/80754af9/charset-normalizer_1630003229654/work
+conda @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_5aeztnykre/croot/conda_1689269911902/work
+conda-content-trust @ file:///Users/ec2-user/ci_py311/conda-content-trust_1678409283937/work
+conda-libmamba-solver @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_b7jucd8kvj/croot/conda-libmamba-solver_1685032330942/work/src
+conda-package-handling @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_f61sssj1s3/croot/conda-package-handling_1685024797154/work
+conda_package_streaming @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_78ue32m8ay/croot/conda-package-streaming_1685019689310/work
+contourpy==1.1.0
+cryptography @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_d3qwb8u102/croot/cryptography_1686613065937/work
+cycler==0.11.0
+dill==0.3.7
+docutils==0.20.1
+fonttools==4.42.1
+idna @ file:///Users/ec2-user/ci_py311/idna_1678315819133/work
+iniconfig==2.0.0
+isort==5.12.0
+jedi==0.19.1
+jsonpatch @ file:///tmp/build/80754af9/jsonpatch_1615747632069/work
+jsonpointer==2.1
+kiwisolver==1.4.5
+libmambapy @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_91xegtksvi/croot/mamba-split_1685993177539/work/libmambapy
+matplotlib==3.7.2
+mccabe==0.7.0
+mypy==1.6.1
+mypy-extensions==1.0.0
+numpy==1.25.2
+packaging @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_c3zlhpboab/croot/packaging_1678965318579/work
+parso==0.8.3
+Pillow==10.0.0
+platformdirs==3.11.0
+pluggy @ file:///Users/ec2-user/ci_py311/pluggy_1678315400971/work
+pyaml==23.9.7
+pycosat @ file:///Users/ec2-user/ci_py311/pycosat_1678378899646/work
+pycparser @ file:///tmp/build/80754af9/pycparser_1636541352034/work
+pylatexenc==3.0a21
+pylint==3.0.2
+pyOpenSSL @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_19gfn1ib_u/croot/pyopenssl_1678965300171/work
+pyparsing==3.0.9
+pypng==0.20220715.0
+pyserial==3.5
+PySocks @ file:///Users/ec2-user/ci_py311/pysocks_1678315868424/work
+pytest==7.4.2
+python-dateutil==2.8.2
+PyYAML==6.0.1
+qrcode==7.4.2
+requests @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_ec2sxfa_zk/croot/requests_1682607519671/work
+ruamel.yaml @ file:///Users/ec2-user/ci_py311/ruamel.yaml_1678379291841/work
+Send2Trash==1.8.2
+six @ file:///tmp/build/80754af9/six_1644875935023/work
+thonny==4.1.3
+tomlkit==0.12.2
+toolz @ file:///Users/ec2-user/ci_py311/toolz_1678323009669/work
+tqdm @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_03acd6t6ca/croot/tqdm_1679561866522/work
+typing_extensions==4.7.1
+urllib3 @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_1968zekhce/croot/urllib3_1686163172153/work
+zstandard @ file:///Users/ec2-user/ci_py311_2/zstandard_1679338593428/work
+bibtexparser==2.0.0b3
+certifi==2023.7.22
+contourpy==1.1.0
+cycler==0.11.0
+distlib==0.3.7
+filelock==3.12.2
+fonttools==4.42.1
+kiwisolver==1.4.5
+matplotlib==3.7.2
+numpy==1.25.2
+packaging==23.1
+Pillow==10.0.0
+platformdirs==3.10.0
+pygame==2.5.2
+pylatexenc==3.0a21
+pyparsing==3.0.9
+python-dateutil==2.8.2
+PyYAML==6.0.1
+six==1.16.0
+virtualenv==20.24.3
+bidict==0.22.1
+blinker==1.7.0
+click==8.1.7
+Flask==3.0.0
+Flask-Cors==4.0.0
+Flask-SocketIO==5.3.6
+h11==0.14.0
+itsdangerous==2.1.2
+Jinja2==3.1.2
+MarkupSafe==2.1.3
+python-engineio==4.8.0
+python-socketio==5.10.0
+simple-websocket==1.0.0
+Werkzeug==3.0.1
+wsproto==1.2.0
